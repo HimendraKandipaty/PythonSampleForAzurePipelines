@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: local
+  name: ubuntu-latest
 strategy:
   matrix:
     Python37:
